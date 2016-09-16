@@ -53,36 +53,7 @@ nav {
 #menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #b59191;
 }
-.fa-facebook {
-  background-color:#8B9DC3;
-  width: 56.86px;
-}
 
-.fa-github {
-  background-color:#000000;
-}
-
-.fa-instagram {
-  background-color:#3F729B;
-}
-
-.fa {
-
-  background-color:#fff;
-
-  border:3px dotted #a29aa9;
-  color:#00006b;
-  /*border-radius:75%;*/
-  text-align: center;
-  font-size: 36px !important;
-  padding:10px;
-  margin:5px 5px;
-  /*height:20px;*/
-  /*width:20px;*/
-}
-.fa:hover {
-  background-color: #000;
-}
 #media {
   display:flex;
   justify-content: center;
@@ -96,6 +67,12 @@ nav {
 .aluminum-img {
   background-image: url('../img/Aluminum.jpg');
   background-repeat:round;
+}
+
+.ocean {
+  background-image: url('..img/ocean.jpg');
+  background-position: center;
+  height: 500px;
 }
 
 .pet-store {
@@ -149,4 +126,39 @@ footer{
     color: #fff;
     background-color: red;
     border-color: red;
+}
+
+.fa-facebook {
+  background-color:#8B9DC3;
+  width: 56.86px;
+}
+
+.fa-github {
+  background-color:#000000;
+}
+
+.fa-instagram {
+  background-color:#3F729B;
+}
+
+.fa {
+
+  background-color:#fff;
+
+  border:3px dotted #E71D36;
+  color:#00006b;
+  /*border-radius:75%;*/
+  text-align: center;
+  font-size: 36px !important;
+  padding:10px;
+  margin:5px 5px;
+  /*height:20px;*/
+  /*width:20px;*/
+}
+.fa:hover {
+  background-color: #000;
+}
+
+#copy_right {
+  color: #E71D36;
 }
